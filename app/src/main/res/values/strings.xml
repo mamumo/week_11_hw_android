@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">this is swish</string>
+    <string name="app_welcome">welcome to swish</string>
+    <string name="question">What\'s Your Name?</string>
+    <string name="full">Pay Full Bill</string>
+    <string name="split">Split The Bill</string>
+    <string name="payment_option">Select Payment Option:</string>
+
+
+</resources>

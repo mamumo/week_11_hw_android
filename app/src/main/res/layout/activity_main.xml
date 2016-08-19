@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/app_welcome"-->
+        <!--android:textSize="30dp"-->
+        <!--android:textColor="#880E4F"/>-->
+
+    <EditText
+        android:id="@+id/question_text"
+        android:hint="@string/question"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/payment_option"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:id="@+id/split_button"
+        android:text="@string/split"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/full_button"
+        android:text="@string/full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/splitAnswer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+</LinearLayout>
